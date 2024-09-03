@@ -12,3 +12,5 @@ black_avoid_patterns = {
     "{model_class}": "FakeModelClass",
     "{object_class}": "FakeObjectClass",
 }
+# "{processor_class}": "FakeProcessorClass", =  python no longer finds { symbols safe
+if written {"*text*"}
